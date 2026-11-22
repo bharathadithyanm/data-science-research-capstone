@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">
+  <rect width="800" height="420" fill="#ffffff" rx="8"/>
+  <text x="400.0" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Model Evaluation on Holdout Split (RMSE: 1.57, MAPE: 0.88%)</text>
+  
+  <!-- Shaded Test region -->
+  <rect x="637.2" y="50" width="132.8" height="320" fill="#f8fafc" stroke="#e2e8f0"/>
+  <line x1="637.2" y1="50" x2="637.2" y2="370" stroke="#94a3b8" stroke-dasharray="4" stroke-width="1.5"/>
+  <text x="647.2" y="70" font-size="12" font-weight="600" fill="#64748b">Holdout Test Set</text>
+
+  <!-- Polylines -->
+  <polyline points="70.0,328.0 94.1,316.0 118.3,300.0 142.4,308.0 166.6,252.0 190.7,196.0 214.8,228.0 239.0,296.0 263.1,284.0 287.2,272.0 311.4,260.0 335.5,208.0 359.7,160.0 383.8,216.0 407.9,276.0 432.1,264.0 456.2,244.0 480.3,236.0 504.5,184.0 528.6,128.0 552.8,192.0 576.9,252.0 601.0,240.0 625.2,224.0" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <polyline points="625.2,224.0 649.3,212.0 673.4,156.0 697.6,104.0 721.7,168.0 745.9,228.0 770.0,216.0" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+  <polyline points="625.2,224.0 649.3,214.0 673.4,159.2 697.6,105.6 721.7,157.6 745.9,220.4 770.0,208.8" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="4"/>
+  <polyline points="625.2,224.0 649.3,212.8 673.4,156.8 697.6,107.6 721.7,160.8 745.9,223.2 770.0,211.6" fill="none" stroke="#9333ea" stroke-width="2" stroke-dasharray="2"/>
+
+  <!-- Dots for test points -->
+  <circle cx="649.3" cy="212.0" r="4" fill="#0f172a"/>
+  <circle cx="673.4" cy="156.0" r="4" fill="#0f172a"/>
+  <circle cx="697.6" cy="104.0" r="4" fill="#0f172a"/>
+  <circle cx="721.7" cy="168.0" r="4" fill="#0f172a"/>
+  <circle cx="745.9" cy="228.0" r="4" fill="#0f172a"/>
+  <circle cx="770.0" cy="216.0" r="4" fill="#0f172a"/>
+
+  <!-- Legend -->
+  <g transform="translate(80, 392)">
+    <line x1="0" y1="5" x2="20" y2="5" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="25" y="9" font-size="11" fill="#334155">Train Data</text>
+    
+    <line x1="110" y1="5" x2="130" y2="5" stroke="#0f172a" stroke-width="2.5"/>
+    <circle cx="120" cy="5" r="3" fill="#0f172a"/>
+    <text x="135" y="9" font-size="11" fill="#334155">Actual Test Demand</text>
+    
+    <line x1="270" y1="5" x2="290" y2="5" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="4"/>
+    <text x="295" y="9" font-size="11" fill="#334155">SARIMA Prediction</text>
+
+    <line x1="430" y1="5" x2="450" y2="5" stroke="#9333ea" stroke-width="2" stroke-dasharray="2"/>
+    <text x="455" y="9" font-size="11" fill="#334155">Prophet Prediction</text>
+  </g>
+</svg>

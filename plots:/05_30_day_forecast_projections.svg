@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">
+  <rect width="850" height="440" fill="#ffffff" rx="8"/>
+  <text x="425.0" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">End-to-End Pipeline: Historical Demand &amp; 30-Day Forecast Projection</text>
+  
+  <!-- Forecast shading -->
+  <rect x="445.0" y="50" width="375.0" height="340" fill="#f0fdf4" opacity="0.5"/>
+  <line x1="445.0" y1="50" x2="445.0" y2="380" stroke="#16a34a" stroke-dasharray="4" stroke-width="1.5"/>
+  <text x="455.0" y="70" font-size="12" font-weight="bold" fill="#15803d">Future Horizon (July 2026)</text>
+  <text x="435.0" y="70" font-size="12" font-weight="bold" text-anchor="end" fill="#1e40af">Historical (June 2026)</text>
+
+  <!-- Y-Grid -->
+  <line x1="70" y1="346.3" x2="820" y2="346.3" stroke="#e2e8f0" stroke-dasharray="3"/>
+  <text x="60" y="350.3" text-anchor="end" font-size="11" fill="#64748b">120</text>
+  <line x1="70" y1="278.9" x2="820" y2="278.9" stroke="#e2e8f0" stroke-dasharray="3"/>
+  <text x="60" y="282.9" text-anchor="end" font-size="11" fill="#64748b">140</text>
+  <line x1="70" y1="211.6" x2="820" y2="211.6" stroke="#e2e8f0" stroke-dasharray="3"/>
+  <text x="60" y="215.6" text-anchor="end" font-size="11" fill="#64748b">160</text>
+  <line x1="70" y1="144.2" x2="820" y2="144.2" stroke="#e2e8f0" stroke-dasharray="3"/>
+  <text x="60" y="148.2" text-anchor="end" font-size="11" fill="#64748b">180</text>
+  <line x1="70" y1="76.8" x2="820" y2="76.8" stroke="#e2e8f0" stroke-dasharray="3"/>
+  <text x="60" y="80.8" text-anchor="end" font-size="11" fill="#64748b">200</text>
+  <polygon points="438.6,258.7 451.4,227.4 464.1,220.0 476.8,173.9 489.5,128.4 502.2,171.8 514.9,224.7 527.6,214.6 540.3,201.1 553.1,194.1 565.8,147.9 578.5,102.4 591.2,145.9 603.9,198.8 616.6,188.7 629.3,175.2 642.0,168.1 654.7,122.0 667.5,76.8 680.2,120.0 692.9,172.8 705.6,163.1 718.3,149.6 731.0,142.5 743.7,96.4 756.4,50.9 769.2,94.4 781.9,147.2 794.6,137.5 807.3,124.0 820.0,116.9 820.0,156.0 807.3,162.7 794.6,175.9 781.9,185.3 769.2,131.7 756.4,88.0 743.7,133.1 731.0,178.6 718.3,185.3 705.6,198.4 692.9,207.9 680.2,154.7 667.5,110.9 654.7,155.7 642.0,201.1 629.3,207.9 616.6,221.0 603.9,230.4 591.2,177.2 578.5,133.1 565.8,178.2 553.1,223.7 540.3,230.4 527.6,243.6 514.9,253.0 502.2,199.5 489.5,155.7 476.8,200.5 464.1,245.9 451.4,252.7 438.6,258.7" fill="#86efac" opacity="0.35"/>
+  <polyline points="70.0,353.1 82.7,342.9 95.4,329.5 108.1,336.2 120.8,289.1 133.6,241.9 146.3,268.8 159.0,326.1 171.7,316.0 184.4,305.9 197.1,295.8 209.8,252.0 222.5,211.6 235.3,258.7 248.0,309.3 260.7,299.2 273.4,282.3 286.1,275.6 298.8,231.8 311.5,184.6 324.2,238.5 336.9,289.1 349.7,278.9 362.4,265.5 375.1,255.4 387.8,208.2 400.5,164.4 413.2,218.3 425.9,268.8 438.6,258.7" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <polyline points="438.6,258.7 451.4,239.9 464.1,233.1 476.8,187.0 489.5,142.2 502.2,185.6 514.9,238.9 527.6,229.1 540.3,216.0 553.1,208.9 565.8,163.1 578.5,117.9 591.2,161.4 603.9,214.6 616.6,204.8 629.3,191.7 642.0,184.6 654.7,138.8 667.5,93.7 680.2,137.1 692.9,190.4 705.6,180.6 718.3,167.5 731.0,160.4 743.7,114.6 756.4,69.4 769.2,113.2 781.9,166.1 794.6,156.7 807.3,143.2 820.0,136.5" fill="none" stroke="#16a34a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(150, 415)">
+    <line x1="0" y1="5" x2="20" y2="5" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="26" y="9" font-size="11" fill="#334155">Historical Demand (June)</text>
+    
+    <line x1="190" y1="5" x2="210" y2="5" stroke="#16a34a" stroke-width="2.8"/>
+    <text x="216" y="9" font-size="11" fill="#334155">30-Day Forecast (July)</text>
+    
+    <rect x="370" y="0" width="18" height="12" fill="#86efac" opacity="0.5" rx="2"/>
+    <text x="395" y="9" font-size="11" fill="#334155">95% Confidence Interval</text>
+  </g>
+</svg>
